@@ -23,9 +23,11 @@ Responsive static corporate and product website for HAMI Tech Labs, hosted with 
 5. Enable **Enforce HTTPS** after GitHub Pages issues the certificate.
 
 ## Before public release
-- Confirm the legal operator name, legal status and official postal address.
+- Legal identity recorded in the draft: Abdul Maajid Khan, Proprietor of HAMITECH LABS; business address: HMT Zainakote, Srinagar, Jammu and Kashmir 190012.
+- Confirm that support@hamiapp.in, billing@hamiapp.in and grievance@hamiapp.in are created, active and monitored; grievance@hamiapp.in is the designated privacy/grievance contact in the draft.
 - Have the common policies and product-specific schedules reviewed by an Indian technology/privacy lawyer.
 - Verify HAMI App and HAMI FIT live data flows, payment providers, refund rules, retention periods and deletion processes.
+- Confirm the responsible person and response process for formal grievances, including applicable statutory timelines.
 - Do not describe roadmap features as live features.
 - If analytics, advertising pixels or other tracking tools are added, update the Cookie & Tracking Notice and consent controls as required.
 
