@@ -67,3 +67,75 @@
 .legal-footer{border-top:1px solid #e4ebe7;padding:24px 0;color:#718078}
 .legal-footer a{color:#087c5b;margin-right:18px}
 @media(max-width:800px){.corporate-hero-grid{grid-template-columns:1fr;gap:10px}.corporate-art{height:390px}.product-grid,.about-grid,.product-detail{grid-template-columns:1fr;gap:25px}.product-card{min-height:390px}.principle-grid{grid-template-columns:1fr;gap:18px}.about-grid{gap:20px}.product-detail{padding-top:55px;padding-bottom:55px}}
+
+
+/* Corporate homepage visual refinements */
+html{overflow-x:clip}
+body{overflow-x:clip}
+.corporate-hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.corporate-hero .hero-copy{min-width:0;max-width:590px}
+.corporate-hero h1{font-size:clamp(2.8rem,5.1vw,4.45rem);line-height:1.08;letter-spacing:-.065em;text-wrap:balance}
+.corporate-hero .hero-lede{max-width:520px}
+.corporate-art{min-width:0;width:100%}
+.ecosystem-card{width:min(100%,390px)}
+.floating-tag{max-width:calc(100% - 20px);white-space:normal;line-height:1.4}
+.tag-doc{right:-8px}
+.tag-check{left:-8px}
+.about-grid,.product-grid,.principle-grid{min-width:0}
+.product-card{min-width:0}
+.product-card h3{line-height:1.15}
+.contact-panel{isolation:isolate}
+.contact-links>a:focus-visible,.nav a:focus-visible,.hero-actions a:focus-visible,.menu-toggle:focus-visible{outline:3px solid #9dceb0;outline-offset:4px}
+@media(max-width:1000px){
+  .nav-links{gap:22px}
+  .corporate-hero-grid{gap:28px}
+  .corporate-hero h1{font-size:clamp(2.65rem,5.2vw,3.8rem)}
+  .ecosystem-card{padding:24px}
+  .tag-doc{right:0}
+  .tag-check{left:0}
+}
+@media(max-width:800px){
+  .corporate-hero{padding-top:58px}
+  .corporate-hero-grid{grid-template-columns:minmax(0,1fr);gap:12px;padding-bottom:34px}
+  .corporate-hero .hero-copy{max-width:650px}
+  .corporate-hero h1{font-size:clamp(2.8rem,8vw,4.2rem);max-width:12ch;margin:22px 0 18px}
+  .corporate-hero .hero-lede{font-size:15px;max-width:570px}
+  .corporate-art{height:390px;max-width:620px;margin:0 auto}
+  .ecosystem-card{width:min(390px,82%);padding:25px}
+  .hero-bottom{flex-wrap:wrap;height:auto;min-height:57px;padding:15px 0;row-gap:10px}
+  .about-grid{grid-template-columns:1fr;gap:20px}
+  .product-grid{grid-template-columns:1fr;gap:16px}
+  .product-card{min-height:0;padding:28px}
+  .principle-grid{grid-template-columns:1fr;gap:22px}
+  .section-contact{padding-top:0}
+}
+@media(max-width:520px){
+  .wrap{width:calc(100% - 36px)}
+  .corporate-hero{padding-top:42px}
+  .corporate-hero h1{font-size:clamp(2.55rem,11vw,3.35rem);letter-spacing:-.06em;line-height:1.06}
+  .corporate-hero .hero-lede{font-size:14px;line-height:1.75}
+  .hero-actions{flex-wrap:wrap;gap:16px;margin-top:25px}
+  .hero-note{margin-top:30px}
+  .corporate-art{height:330px;margin:0 -8px;width:calc(100% + 16px)}
+  .ecosystem-card{width:min(340px,82%);padding:20px;border-radius:18px}
+  .ecosystem-card h2{font-size:22px;margin:19px 0}
+  .ecosystem-product{gap:9px;padding:11px 0}
+  .ecosystem-product small{font-size:9px}
+  .eco-icon{width:34px;height:34px;flex:0 0 34px}
+  .floating-tag{font-size:9px;padding:9px 11px;border-radius:10px}
+  .tag-doc{top:26px;right:0}
+  .tag-check{bottom:22px;left:0}
+  .hero-bottom{justify-content:center;gap:9px 12px;font-size:7px;letter-spacing:.8px}
+  .about-grid h2{font-size:clamp(2rem,8vw,2.6rem)}
+  .product-card-top{margin-bottom:26px}
+  .product-status{font-size:7px;letter-spacing:.8px;padding:7px 9px}
+  .contact-panel{padding:32px 22px}
+  .contact h2{font-size:clamp(1.8rem,8vw,2.45rem)}
+  .footer-top{align-items:flex-start;flex-direction:column;gap:14px}
+  .footer-top>a:last-child{margin-left:0;width:auto}
+  .footer-bottom{flex-direction:column;gap:10px;line-height:1.6}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
