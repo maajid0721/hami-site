@@ -24,7 +24,7 @@ Responsive static corporate and product website for HAMI Tech Labs, hosted with 
 
 ## Before public release
 - Legal identity recorded in the draft: Abdul Maajid Khan, Proprietor of HAMITECH LABS; business address: HMT Zainakote, Srinagar, Jammu and Kashmir 190012.
-- Confirm that support@hamiapp.in, billing@hamiapp.in and grievance@hamiapp.in are created, active and monitored; grievance@hamiapp.in is the designated privacy/grievance contact in the draft.
+- Keep support@hamiapp.in, billing@hamiapp.in and grievance@hamiapp.in active and monitored; grievance@hamiapp.in is the designated privacy/grievance contact in the draft.
 - Have the common policies and product-specific schedules reviewed by an Indian technology/privacy lawyer.
 - Verify HAMI App and HAMI FIT live data flows, payment providers, refund rules, retention periods and deletion processes.
 - Confirm the responsible person and response process for formal grievances, including applicable statutory timelines.
